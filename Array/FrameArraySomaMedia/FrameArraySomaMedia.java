@@ -108,21 +108,21 @@ public class FrameArraySomaMedia extends JFrame {
                             
                             media = soma/(A + 1);
                             
-                            MediaLabel.setText("MÉDIA = " + media);
+                            MediaLabel.setText("MÃ‰DIA = " + media);
                             SomaLabel.setText("SOMA = " + soma);
 
                             A++;
 
-                            label.setText((A + 1) + "°");
+                            label.setText((A + 1) + "Â°");
                             Atext.setText("");
                         } else {
-                            JOptionPane.showMessageDialog(null, "Valor máximo de valores inseridos");
+                            JOptionPane.showMessageDialog(null, "Valor mÃ¡ximo de nÃºmeros inseridos");
                         }
                     } else {
                         JOptionPane.showMessageDialog(null, "Preencha um valor!");
                     }
                 } catch (java.lang.NumberFormatException excep) {
-                    JOptionPane.showMessageDialog(null, "Por favor, verifique o que você está digitando!");
+                    JOptionPane.showMessageDialog(null, "Por favor, verifique o que vocÃª estÃ¡ digitando!");
                 } catch (Exception excep) {
                     JOptionPane.showMessageDialog(null, "Ocorreu um erro, tente novamente!");
                     Atext.setText("");
